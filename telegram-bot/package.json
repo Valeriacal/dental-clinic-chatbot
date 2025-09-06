@@ -1,0 +1,26 @@
+{
+  "name": "dental-clinic-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for DentalBot Clinic Berlin with bilingual support",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "dental",
+    "clinic",
+    "bilingual"
+  ],
+  "author": "DentalBot Clinic Berlin",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
